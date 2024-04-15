@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "konzolos_pizza_futar_vizsgaszeru", "konzolos_pizza_futar_vizsgaszeru\konzolos_pizza_futar_vizsgaszeru.csproj", "{6FCAFF0E-C180-46E4-A022-7CFFC36E2367}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Windows_Forms_App_pizza_futar_vizsgaszeru", "Windows_Forms_App_pizza_futar_vizsgaszeru\Windows_Forms_App_pizza_futar_vizsgaszeru.csproj", "{E8A900C9-46C9-4478-B011-CB54AC116E4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6FCAFF0E-C180-46E4-A022-7CFFC36E2367}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FCAFF0E-C180-46E4-A022-7CFFC36E2367}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FCAFF0E-C180-46E4-A022-7CFFC36E2367}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8A900C9-46C9-4478-B011-CB54AC116E4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8A900C9-46C9-4478-B011-CB54AC116E4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8A900C9-46C9-4478-B011-CB54AC116E4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8A900C9-46C9-4478-B011-CB54AC116E4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
