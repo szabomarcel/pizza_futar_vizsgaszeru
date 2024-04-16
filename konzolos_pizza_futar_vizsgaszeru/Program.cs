@@ -28,7 +28,7 @@ namespace konzolos_pizza_futar_vizsgaszeru
         {
             List<Api> api = new List<Api>();
             var client = new HttpClient();
-            var request = new HttpRequestMessage(HttpMethod.Get, $"http://localhost/pizza_futar_vizsgaszeru/index.php?futarok/ + {fazon} + {fnev} + {ftel}");
+            var request = new HttpRequestMessage(HttpMethod.Get, $"http://localhost/_pizza_futar_vizsgaszeru_/index.php?futarok + {fazon} + {fnev} + {ftel}");
             var response = await client.SendAsync(request);
             if(response.IsSuccessStatusCode)
             {
